@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom component layer overrides or additions */
+@layer components {
+  .btn-grad { @apply inline-flex items-center justify-center font-semibold px-5 py-3 rounded-xl text-sm bg-gradient-to-r from-indigo-500 via-violet-500 to-pink-500 text-white shadow hover:shadow-lg transition; }
+}
